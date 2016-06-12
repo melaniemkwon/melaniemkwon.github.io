@@ -1,5 +1,5 @@
 # melaniemkwon.github.io
-Melanie Kwon's website
+[Melanie Kwon's website](http://melaniemkwon.github.io/)
 
 Responsive web site built on Bootstrap framework.
 
