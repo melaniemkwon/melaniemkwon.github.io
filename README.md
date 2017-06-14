@@ -10,11 +10,7 @@
 [3]: https://plus.google.com/+MelanieKwon
 [4]: http://www.github.com/melaniemkwon
 
-# [Melanie Kwon](http://melaniemkwon.github.io/) 
+# [Melanie Kwon](http://melaniemkwon.github.io/) [![alt text][1.1]][1] [![alt text][2.1]][2] [![alt text][3.1]][3] [![alt text][4.1]][4]
 <!-- display the social media buttons in your README -->
-[![alt text][1.1]][1]
-[![alt text][2.1]][2]
-[![alt text][3.1]][3]
-[![alt text][4.1]][4]
-![Me](http://i.imgur.com/MiYz1YX.jpg)
-[Welcome! Feel free to browse the projects I've been working on.](http://melaniemkwon.github.io/)
+
+[<img src="http://i.imgur.com/uobUtaI.jpg">](http://melaniemkwon.github.io/)
