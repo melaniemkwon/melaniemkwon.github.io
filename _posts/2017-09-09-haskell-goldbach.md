@@ -9,7 +9,7 @@ categories:
 ## Fun with functional programming: Haskell
 
 Learning Haskell is turning out to be a confusing but enlightening
-journey for me. Though there's quite a few tutorials on Haskell, but the one I'd
+journey for me. Though there are quite a few tutorials on Haskell, the one I'd
 recommend is [Learn You A Haskell](http://learnyouahaskell.com/) by Miran Lipovaca. 
 It's free to read online and an excellent resource for coders with experience
 in imperative programming languages (C, C++, Java, Python...)
