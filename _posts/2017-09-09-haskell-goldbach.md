@@ -14,7 +14,7 @@ recommend is [Learn You A Haskell](http://learnyouahaskell.com/) by Miran Lipova
 It's free to read online and an excellent resource for coders with experience
 in imperative programming languages (C, C++, Java, Python...)
 
-For practice, below is an implementation of
+For practice, below is my implementation of
 [Goldbach's Other Conjecture](https://projecteuler.net/problem=46).
 
 {% highlight haskell %}
@@ -76,3 +76,23 @@ goldbachDisprove :: [Integer]
 goldbachDisprove = [g | g <- oddComposites, null (goldbachPK g)]
 
 {% endhighlight %}
+
+---
+Now let's check our work by taking the first two numbers from the list, 
+goldbachDisprove.
+
+```
+take 2 goldbachDisprove
+```
+
+Which should give us the numbers that fail the conjecture.
+
+```
+[5777,5993]
+```
+
+Done!
+
+For more Haskell goodness, Peter Drake has a set of 
+[introductory videos](https://www.youtube.com/watch?v=NBKnY7Z_w3I)
+to ease you into the world of functional programming.
