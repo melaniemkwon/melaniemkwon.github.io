@@ -78,17 +78,23 @@ goldbachDisprove = [g | g <- oddComposites, null (goldbachPK g)]
 {% endhighlight %}
 
 ---
-Now let's check our work by taking the first two numbers from the list, 
-goldbachDisprove.
+Now let's check our work.
+First, we'll load the script in GHCI.
 
 ```
-take 2 goldbachDisprove
+*Main> :l goldbach
+```
+
+Next, we'll take the first two numbers from the list, goldbachDisprove.
+
+```
+*Main> take 2 goldbachDisprove
 ```
 
 Which should give us the numbers that fail the conjecture.
 
 ```
-[5777,5993]
+*Main> [5777,5993]
 ```
 
 Done!
