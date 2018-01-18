@@ -2,6 +2,7 @@
 layout: default
 title: Blog Posts
 ---
+<link href="//cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.css" type="text/css" rel="stylesheet" />
 
 <div id="home">
   <h2><i class="fa fa-briefcase"></i> Experience</h2>
@@ -9,16 +10,76 @@ title: Blog Posts
   <br>
   <hr>
   <h2><i class="fa fa-thumb-tack"></i> Projects</h2>
-      <!-- <a href="#" data-featherlight="<p>description tbd</p>" style="padding-left: 3.5em">Project 1</a> -->
-      <h4>K Star Cafe</h4>
-      <p>Full-Stack Web and Mobile Apps featuring a trendy and cozy café/restaurant.</p>
-      <p><a href="https://github.com/melaniemkwon/K-Star-Cafe-Angular">K-Star-Cafe-Angular</a></p>
-      <p><a href="https://github.com/melaniemkwon/K-Star-Cafe-IonicCordova">K-Star-Cafe-IonicCordova</a></p>
-      <p><a href="https://github.com/melaniemkwon/K-Star-Cafe-Nativescript">K-Star-Cafe-Nativescript</a></p>
-      <p><a href="https://github.com/melaniemkwon/K-Star-Cafe-RESTAPI">K-Star-Cafe-RESTAPI</a></p>
-      <br>
-      <h5>Applied Deep Learning for Computer-Aided Diagnosis of Cervical Cytology</h5>
-      <img src="/cells.png" id="panorama" style="max-width: 100%" alt="Cervical Cytology"/>
+      
+    <a href="#" data-featherlight="#mylightbox1">
+      <div class="card card__two">
+        <figure class="card__img">
+          <img src="/coffee.jpg"/>
+        </figure>
+        <div class="card__desc">
+          <h4 style="text-align: center;">K Star Cafe</h4>
+          <p>Full-Stack Web and Mobile Apps featuring a trendy and cozy café/restaurant.</p>
+        </div>
+      </div>
+    </a>
+
+    <a href="#" data-featherlight="#mylightbox2">
+      <div class="card card__two">
+        <figure class="card__img">
+          <img src="/cells.png"/>
+        </figure>
+        <div class="card__desc">
+          <h4 style="text-align: center;">Applied Deep Learning for Computer-Aided Diagnosis of Cervical Cytology</h4>
+          <p>A collaborative study with pathologists of LAC+USC/Keck Hospital to assess the diagnostic accuracy of convolutional neural networks trained on whole slide scanned cytology images.</p>
+        </div>
+      </div>
+    </a>
+
+  <div class="lightbox" id="mylightbox1">
+    <h4><a href="https://github.com/melaniemkwon/K-Star-Cafe-Angular"><i class="fa fa-code"></i> K-Star-Cafe-Angular</a></h4>
+    <p>Single-page Application using Typescript and Angular framework (Ver 4.x). Responsive UI design in Angular Material and Angular Flex-Layout. Demonstrates use of Observables, reactive programming with RxJS, and Restangular for communicating with a server supporting REST API.</p>
+    <h4><a href="https://github.com/melaniemkwon/K-Star-Cafe-IonicCordova"><i class="fa fa-code"></i> K-Star-Cafe-IonicCordova</a></h4>
+    <p>Hybrid mobile application using Ionic framework (Ver 3.x) and Cordova hybrid application framework to develop and target multiple mobile platforms with a single codebase.</p>
+    <h4><a href="https://github.com/melaniemkwon/K-Star-Cafe-Nativescript"><i class="fa fa-code"></i> K-Star-Cafe-Nativescript</a></h4>
+    <p>Cross-platform, native iOS and Android apps using NativeScript (Ver 3.x). Uses Angular and TypeScript to get truly native UI and performance.</p>
+    <h4><a href="https://github.com/melaniemkwon/K-Star-Cafe-RESTAPI"><i class="fa fa-code"></i> K-Star-Cafe-RESTAPI</a></h4>
+    <p>RESTful API developed using NodeJS, Express, MongoDB and Mongoose ODM to create schemas and models.</p>
+  </div>
+
+  <div class="lightbox" id="mylightbox2">
+    <p>In partnership with pathologists of Los Angeles County + USC/Keck Hospital of USC, 
+    we aim to explore how the diagnostic performance of convolutional neural networks can be
+    compared to the human-level expertise of licensed pathologists.</p>
+    <table style="width: 100%">
+        <tbody>
+            <tr>
+                <td><a href="http://www.calstatela.edu/faculty/mohammad-pourhomayoun">Mohammad Pourhomayoun, Ph.D.</a></td>
+                <td>Principal Investigator</td>
+            </tr>
+            <tr>
+                <td><a href="http://keck.usc.edu/faculty/sue-ellen-martin/">Sue Ellen Martin, MD, Ph.D.</a></td>
+                <td>Principal Investigator</td>
+            </tr>
+            <tr>
+                <td>Melanie Kwon, MSCS</td>
+                <td>Research Project Manager</td>
+            </tr>
+            <tr>
+                <td>Vanessa Martin, MD</td>
+                <td>Co-Investigator</td>
+            </tr>
+            <tr>
+                <td>Tae Hun Kim, MD</td>
+                <td>Co-Investigator</td>
+            </tr>
+            <tr>
+                <td>Adam Berman, MSCS</td>
+                <td>Co-Investigator</td>
+            </tr>
+        </tbody>
+    </table>
+  </div>
+
   <br>
   <hr>
   <h2><i class="fa fa-bookmark"></i> Blog Posts</h2>
@@ -28,3 +89,6 @@ title: Blog Posts
     {% endfor %}
   </ul>
 </div>
+
+<script src="//code.jquery.com/jquery-latest.js"></script>
+<script src="//cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
