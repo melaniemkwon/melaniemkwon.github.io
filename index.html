@@ -37,16 +37,27 @@ title: Blog Posts
 
   <div class="lightbox" id="mylightbox1">
     <h4><a href="https://github.com/melanibkwon/K-Star-Cafe-Angular"><i class="fa fa-code"></i> K-Star-Cafe-Angular</a></h4>
-    <p><b>Single-page Application</b> using Typescript and <b>Angular</b> framework (Ver 4.x). Responsive UI design in <b>Angular Material</b> and <b>Angular Flex-Layout</b>. Dbonstrates use of Observables, reactive programming with <b>RxJS</b>, and <b>Restangular</b> for communicating with a server supporting REST API.</p>
+    <!-- <button id="angularDemo" style="display: inline">Show Demo</button> -->
+    <img id="angularGIF" src="/angular.gif"/>
+    <p><strong>Single-page Application</strong> using Typescript and <strong>Angular</strong> framework (Ver 4.x). Responsive UI design in <strong>Angular Material</strong> and <strong>Angular Flex-Layout</strong>. Demonstrates use of Observables, reactive programming with <strong>RxJS</strong>, and <strong>Restangular</strong> for communicating with a server supporting REST API.</p>
+
     <h4><a href="https://github.com/melanibkwon/K-Star-Cafe-IonicCordova"><i class="fa fa-code"></i> K-Star-Cafe-IonicCordova</a></h4>
-    <p><b>Hybrid mobile application</b> using <b>Ionic</b> framework (Ver 3.x) and <b>Cordova</b> hybrid application framework to develop and target multiple mobile platforms with a single codebase.</p>
+    <img id="ionicGIF" src="/ionic.gif"/>
+
+    <p><strong>Hybrid mobile application</strong> using <strong>Ionic</strong> framework (Ver 3.x) and <strong>Cordova</strong> hybrid application framework to develop and target multiple mobile platforms with a single codebase.</p>
     <h4><a href="https://github.com/melanibkwon/K-Star-Cafe-Nativescript"><i class="fa fa-code"></i> K-Star-Cafe-Nativescript</a></h4>
-    <p>Cross-platform, <b>native iOS and Android apps</b> using <b>NativeScript</b> (Ver 3.x). Uses Angular and TypeScript to get truly native mobile UI and performance. <b>Couchbase</b> backend.</p>
+    <img id="nativescriptGIF" src="/nativescript.gif"/>
+
+    <p>Cross-platform, <strong>native iOS and Android apps</strong> using <strong>NativeScript</strong> (Ver 3.x). Uses Angular and TypeScript to get truly native mobile UI and performance. <strong>Couchbase</strong> backend.</p>
     <h4><a href="https://github.com/melanibkwon/K-Star-Cafe-RESTAPI"><i class="fa fa-code"></i> K-Star-Cafe-RESTAPI</a></h4>
-    <p><b>RESTful API</b> developed using <b>NodeJS, Express, MongoDB and Mongoose</b>. Token-based authentication with Passport-JWT.</p>
+    <img id="postmanPic" src="/postman.png"/>
+    <p><strong>RESTful API</strong> developed using <strong>NodeJS, Express, MongoDB and Mongoose</strong>. Token-based authentication with Passport-JWT.</p>
   </div>
 
   <div class="lightbox" id="mylightbox2">
+    <center>
+      <img src="/usc.png"/>
+    </center>
     <p>In partnership with pathologists of Los Angeles County + USC/Keck Hospital of USC, 
     we aim to explore how the diagnostic performance of convolutional neural networks can be
     compared to the human-level expertise of licensed pathologists.</p>
@@ -92,3 +103,10 @@ title: Blog Posts
 
 <script src="//code.jquery.com/jquery-latest.js"></script>
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+<script>
+$(document).ready(function(){
+  $("#angularDemo").click(function(){
+    $("#angularGIF").toggle();
+  });
+});
+</script>
