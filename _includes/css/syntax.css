@@ -2,6 +2,7 @@
 pre { white-space: pre; overflow: auto; }
 code, pre { font-family: Monaco,Menlo,Consolas,"Courier New",monospace; }
 
+/*Custom Styling (yes i know this is bad practice. who cares why are you reading this?) */
 .card {
   position: relative;
   flex: 1 1 100%;
@@ -70,4 +71,12 @@ code, pre { font-family: Monaco,Menlo,Consolas,"Courier New",monospace; }
 
 .lightbox {
   display: none;
+}
+
+.featherlight .featherlight-content {
+  width: 90%;
+}
+
+.featherlight-close {
+  font-size: 20px;
 }

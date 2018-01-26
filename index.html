@@ -14,7 +14,7 @@ title: Blog Posts
     <a href="#" data-featherlight="#mylightbox1">
       <div class="card card__two">
         <figure class="card__img">
-          <img src="/coffee.jpg"/>
+          <img src="/assets/images/coffee.jpg"/>
         </figure>
         <div class="card__desc">
           <h4 style="text-align: center;">K Star Café</h4>
@@ -26,7 +26,7 @@ title: Blog Posts
     <a href="#" data-featherlight="#mylightbox2">
       <div class="card card__two">
         <figure class="card__img">
-          <img src="/cells.png"/>
+          <img src="/assets/images/cells.png"/>
         </figure>
         <div class="card__desc">
           <h4 style="text-align: center;">Applied Deep Learning for Computer-Aided Diagnosis of Cervical Cytology</h4>
@@ -36,59 +36,100 @@ title: Blog Posts
     </a>
 
   <div class="lightbox" id="mylightbox1">
-    <h4><a href="https://github.com/melaniemkwon/K-Star-Cafe-Angular"><i class="fa fa-code"></i> K-Star-Cafe-Angular</a></h4>
-    <!-- <button id="angularDemo" style="display: inline">Show Demo</button> -->
-    <img id="angularGIF" src="/angular.gif"/>
-    <p><strong>Single-page Application</strong> using Typescript and <strong>Angular</strong> framework (Ver 4.x). Responsive UI design in <strong>Angular Material</strong> and <strong>Angular Flex-Layout</strong>. Demonstrates use of Observables, reactive programming with <strong>RxJS</strong>, and <strong>Restangular</strong> for communicating with a server supporting REST API.</p>
 
-    <h4><a href="https://github.com/melaniemkwon/K-Star-Cafe-IonicCordova"><i class="fa fa-code"></i> K-Star-Cafe-IonicCordova</a></h4>
-    <img id="ionicGIF" src="/ionic.gif"/>
+    <div class="container">
+      <div class="row">
+        <div class="six columns">
+        <h4><a href="https://github.com/melaniemkwon/K-Star-Cafe-Angular"><i class="fa fa-code"></i> K-Star-Cafe-Angular</a></h4>
+        <!-- <button id="angularDemo" style="display: inline">Show Demo</button> -->
+        <img id="angularGIF" src="/assets/images/angular.gif"/>
+        </div>
+        <div class="six columns">
+          <hr>
+          <p><strong>Single-page Application</strong> using Typescript and <strong>Angular</strong> framework (Ver 4.x). Responsive UI design in <strong>Angular Material</strong> and <strong>Angular Flex-Layout</strong>. Demonstrates use of Observables, reactive programming with <strong>RxJS</strong>, and <strong>Restangular</strong> for communicating with a server supporting REST API.</p>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="six columns">
+          <h4><a href="https://github.com/melaniemkwon/K-Star-Cafe-IonicCordova"><i class="fa fa-code"></i> K-Star-Cafe-IonicCordova</a></h4>
+          <img id="ionicGIF" src="/assets/images/ionic.gif"/>
+        </div>
+        <div class="six columns">
+          <hr>
+          <p><strong>Hybrid mobile application</strong> using <strong>Ionic</strong> framework (Ver 3.x) and <strong>Cordova</strong> hybrid application framework to develop and target multiple mobile platforms with a single codebase.</p>
+        </div>
+      </div>
 
-    <p><strong>Hybrid mobile application</strong> using <strong>Ionic</strong> framework (Ver 3.x) and <strong>Cordova</strong> hybrid application framework to develop and target multiple mobile platforms with a single codebase.</p>
-    <h4><a href="https://github.com/melaniemkwon/K-Star-Cafe-Nativescript"><i class="fa fa-code"></i> K-Star-Cafe-Nativescript</a></h4>
-    <img id="nativescriptGIF" src="/nativescript.gif"/>
+      <div class="row"> 
+        <div class="six columns">
+          <h4><a href="https://github.com/melaniemkwon/K-Star-Cafe-Nativescript"><i class="fa fa-code"></i> K-Star-Cafe-Nativescript</a></h4>
+          <img id="nativescriptGIF" src="/assets/images/nativescript.gif"/>
+        </div>
+        <div class="six columns">
+          <hr>
+          <p>Cross-platform, <strong>native iOS and Android apps</strong> using <strong>NativeScript</strong> (Ver 3.x). Uses Angular and TypeScript to get truly native mobile UI and performance. <strong>Couchbase</strong> backend.</p>
+        </div>
+      </div>
 
-    <p>Cross-platform, <strong>native iOS and Android apps</strong> using <strong>NativeScript</strong> (Ver 3.x). Uses Angular and TypeScript to get truly native mobile UI and performance. <strong>Couchbase</strong> backend.</p>
-    <h4><a href="https://github.com/melaniemkwon/K-Star-Cafe-RESTAPI"><i class="fa fa-code"></i> K-Star-Cafe-RESTAPI</a></h4>
-    <img style="max-width:90%" id="postmanPic" src="/Postman.png"/>
-    <p><strong>RESTful API</strong> developed using <strong>NodeJS, Express, MongoDB and Mongoose</strong>. Token-based authentication with Passport-JWT.</p>
+      <div class="row"> 
+        <div class="six columns">
+          <h4><a href="https://github.com/melaniemkwon/K-Star-Cafe-RESTAPI"><i class="fa fa-code"></i> K-Star-Cafe-RESTAPI</a></h4>
+          <img style="max-width:90%" id="postmanPic" src="/assets/images/Postman.png"/>
+        </div>
+        <div class="six columns">
+          <hr>
+          <p><strong>RESTful API</strong> developed using <strong>NodeJS, Express, MongoDB and Mongoose</strong>. Token-based authentication with Passport-JWT.</p>
+        </div>
+      </div>
+
+    </div><!-- container end -->
   </div>
 
   <div class="lightbox" id="mylightbox2">
-    <center>
-      <img style="max-width:90%" src="/usc.png"/>
-    </center>
-    <p>In partnership with pathologists of Los Angeles County + USC/Keck Hospital of USC, 
-    we aim to explore how the diagnostic performance of convolutional neural networks can be
-    compared to the human-level expertise of licensed pathologists.</p>
-    <table style="width: 100%">
-        <tbody>
-            <tr>
-                <td><a href="http://www.calstatela.edu/faculty/mohammad-pourhomayoun">Mohammad Pourhomayoun, Ph.D.</a></td>
-                <td>Principal Investigator</td>
-            </tr>
-            <tr>
-                <td><a href="http://keck.usc.edu/faculty/sue-ellen-martin/">Sue Ellen Martin, MD, Ph.D.</a></td>
-                <td>Principal Investigator</td>
-            </tr>
-            <tr>
-                <td>Melanie Kwon, MSCS</td>
-                <td>Research Project Manager</td>
-            </tr>
-            <tr>
-                <td>Vanessa Martin, MD</td>
-                <td>Co-Investigator</td>
-            </tr>
-            <tr>
-                <td>Tae Hun Kim, MD</td>
-                <td>Co-Investigator</td>
-            </tr>
-            <tr>
-                <td>Adam Berman, MSCS</td>
-                <td>Co-Investigator</td>
-            </tr>
-        </tbody>
-    </table>
+    <div class="container">
+      <div class="row">
+        <div class="eight columns">
+          <img style="max-width:90%" src="/assets/images/usc.png"/>
+        </div>
+
+        <div class="eight columns">
+          <h5>Applied Deep Learning for Computer-Aided Diagnosis of Cervical Cytology</h5>
+          <p>In partnership with pathologists of Los Angeles County + USC/Keck Hospital of USC, 
+          we aim to explore how the diagnostic performance of convolutional neural networks can be
+          compared to the human-level expertise of licensed pathologists.</p>
+          <table style="width: 100%">
+              <tbody>
+                  <tr>
+                      <td><a href="http://www.calstatela.edu/faculty/mohammad-pourhomayoun">Mohammad Pourhomayoun, Ph.D.</a></td>
+                      <td>Principal Investigator</td>
+                  </tr>
+                  <tr>
+                      <td><a href="http://keck.usc.edu/faculty/sue-ellen-martin/">Sue Ellen Martin, MD, Ph.D.</a></td>
+                      <td>Principal Investigator</td>
+                  </tr>
+                  <tr>
+                      <td>Melanie Kwon, MSCS</td>
+                      <td>Research Project Manager</td>
+                  </tr>
+                  <tr>
+                      <td>Vanessa Martin, MD</td>
+                      <td>Co-Investigator</td>
+                  </tr>
+                  <tr>
+                      <td>Tae Hun Kim, MD</td>
+                      <td>Co-Investigator</td>
+                  </tr>
+                  <tr>
+                      <td>Adam Berman, MSCS</td>
+                      <td>Co-Investigator</td>
+                  </tr>
+              </tbody>
+          </table>
+        </div>
+
+      </div>
+    </div>
   </div>
 
   <br>
@@ -104,9 +145,9 @@ title: Blog Posts
 <script src="//code.jquery.com/jquery-latest.js"></script>
 <script src="//cdn.rawgit.com/noelboss/featherlight/1.7.12/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
 <script>
-$(document).ready(function(){
-  $("#angularDemo").click(function(){
-    $("#angularGIF").toggle();
-  });
-});
+// $(document).ready(function(){
+//   $("#angularDemo").click(function(){
+//     $("#angularGIF").toggle();
+//   });
+// });
 </script>
