@@ -62,5 +62,5 @@ You can also get better results if we "merge" style costs in different proportio
 from several different conv layers.
 
 Much credit and thanks to Andrew Ng's [Deeplearning.ai](https://www.deeplearning.ai) course. I highly recommend it
-if you want to use deep learning for your own experimentss.
+if you want to use deep learning for your own experiments.
 
