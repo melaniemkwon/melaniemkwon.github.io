@@ -28,7 +28,8 @@ trained on the very large ImageNet database.
 
 In these particular examples, I used [TensorFlow](https://www.tensorflow.org) but there are lots of other 
 great deep learning libraries where gradients are automatically and dynamically 
-computed for you. Pytorch being another one. Although it helps to have a GPU to 
+computed for you. [Pytorch](http://pytorch.org/tutorials/advanced/neural_style_tutorial.html) 
+is another library I'd recommend. Although it helps to have a GPU 
 for training, a CPU and a little bit of patience works as well. :)
 
 So let's see if we can create an artistic rendition of this cat.
