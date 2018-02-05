@@ -63,7 +63,8 @@ This node then transfers copies of packets through the pipeline. When the packet
 However, say if something goes wrong, then the client closes the pipeline to mark and replace the bad node so a new pipeline will be organized.
 HDFS takes care of all this complexity behind the scenes.
 
-And because data nodes act as a state machine for each file block, whenever a data node in the pipeline fails, we can be sure that all the necessary replicas will be recovered while any unneeded nodes are removed.
+And because data nodes act as a <strong>state machine</strong> for each file block, whenever a data node in the pipeline fails, we can be sure that all the necessary replicas will be recovered while any unneeded nodes are removed.
+We'll go into the details of this state machine later.
 
 This is only a brief overview of the architecture and scalability issues around distributed file systems.
 Next post, we'll explore the topic of HDFS recovery process more in depth.
