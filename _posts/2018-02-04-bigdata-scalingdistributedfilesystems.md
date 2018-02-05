@@ -69,6 +69,8 @@ We'll go into the details of this state machine later.
 This is only a brief overview of the architecture and scalability issues around distributed file systems.
 Next post, we'll explore the topic of HDFS recovery process more in depth.
 
+(continue to [part 2, Distributed File Systems - Recovery Process](/blog/2018/02/05/bigdata-scalingdistributedfilesystems2.html))
+
 ---
 <em>Sources:</em>
 

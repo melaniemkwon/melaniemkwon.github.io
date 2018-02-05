@@ -6,6 +6,8 @@ categories:
 - blog
 ---
 
+(continued from [part 1, Distributed File Systems - Scaling](/blog/2018/02/04/bigdata-scalingdistributedfilesystems.html))
+
 ## Block and Replica States
 
 To understand the recovery process of HDFS, let's first introduce two concepts:
@@ -153,6 +155,8 @@ the acknowledgement of the previous packet is received.
 
 Now that the theory stuff is out of the way, it's time to get our hands dirty.
 Next post, we'll stretch our fingers and get familiar with writing commands in the HDFS Client.
+
+<!-- (continue to [part 3, Using HDFS Client - Don't Fear the Command Line!](#)) -->
 
 ---
 <em>Sources:</em>
