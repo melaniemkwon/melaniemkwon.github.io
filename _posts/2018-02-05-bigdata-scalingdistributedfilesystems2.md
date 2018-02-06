@@ -156,7 +156,7 @@ the acknowledgement of the previous packet is received.
 Now that the theory stuff is out of the way, it's time to get our hands dirty.
 Next post, we'll stretch our fingers and get familiar with writing commands in the HDFS Client.
 
-<!-- (continue to [part 3, Using HDFS Client - Don't Fear the Command Line!](#)) -->
+(continue to [part 3, Using HDFS Client - Don't Fear the Command Line!](/blog/2018/02/06/bigdata-hdfsclient.html))
 
 ---
 <em>Sources:</em>
