@@ -1,7 +1,7 @@
 ---
 layout: post
 title: We're Falling Behind Guys
-tags: [machine-learning]
+tags: [artificial-intelligence]
 categories:
 - blog
 ---
