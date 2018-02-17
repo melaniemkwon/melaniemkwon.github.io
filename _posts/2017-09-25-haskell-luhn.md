@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Luhn Algorithm
-tags: [code, haskell]
+tags: [code]
 categories:
 - blog
 ---

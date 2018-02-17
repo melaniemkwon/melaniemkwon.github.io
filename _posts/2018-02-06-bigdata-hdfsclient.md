@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HDFS Client - Don't Fear the Command Line!
-tags: [big-data]
+tags: [big-data, tutorials]
 categories:
 - blog
 ---

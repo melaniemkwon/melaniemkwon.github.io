@@ -1,4 +1,4 @@
 ---
 layout: tag
-title: haskell
+title: tutorials
 ---
