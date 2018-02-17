@@ -20,8 +20,6 @@ Enter **SSH tunneling**~~~
 <div>
     <i class="fa fa-5x fa-laptop">&nbsp;</i>
     <i class="fa fa-5x fa-angle-double-right">&nbsp;</i>
-    <i class="fa fa-5x fa-angle-double-right">&nbsp;</i>
-    <i class="fa fa-5x fa-angle-double-right">&nbsp;</i>
     <i class="fa fa-5x fa-server">&nbsp;</i>
 </div>
 
@@ -90,7 +88,7 @@ Now, log in from the client machine using that IP address:
 $ ssh username@X.X.X.X
 {% endhighlight %}
 
-You'll prompted for the password of the account you used in your `ssh` command.
+You'll be prompted for the password of the account you used in your `ssh` command.
 After successfully logging in, you'll see a "Welcome to Ubuntu X.X.X" message.
 Congratulations! You've just established a secure shell connection.
 
@@ -100,7 +98,7 @@ Again, move around in the shell (ls, cd, pwd, etc.) and make sure everything's w
 
 <h3><i class="fa fa-2x fa-angle-double-right">&nbsp;</i>Connect from the 'client' machine OUTSIDE the network</h3>
 
-But what if you want to access the machine from outside the same network?
+But what if you want to access the host machine from outside the same network?
 
 On your host machine, get your **public** IP address by going to [www.whatsmyip.org](http://www.whatsmyip.org).
 It should be in the form of XX.XX.XXX.XXX.
@@ -138,7 +136,7 @@ The process is slightly different depending on the router, but these are the gen
 4. Enter the private IP address of your host machine. 
 - *(NOTE: if you want to prevent your local IP address from constantly changing,
 you need to specify a reserved IP address for the host in the LAN. That way the PC will always receive the same IP address each time when it connects the DHCP server.
-To do so, use your Google-fu kills to look up **DHCP reservation** or **address reservation** instructions for your particular router.)*
+To do so, use your Google-fu skills to look up **DHCP reservation** or **address reservation** instructions for your particular router.)*
 
 5. Save your settings.
 
