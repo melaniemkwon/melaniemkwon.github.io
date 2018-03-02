@@ -245,7 +245,7 @@ Now say you've got Jupyter Notebook and all your favorite data science libraries
 on your server. How can we connect to the Jupyter Notebook web interface running on our server?
 
 #### Set up a password for Jupyter Notebook
-Starting at notebook version 5.0, you can enter and store a password for your notebook server with a single command. jupyter notebook password will prompt you for your password and record the hashed password in your `jupyter_notebook_config.json`.
+Starting at notebook version 5.0, you can enter and store a password for your notebook server with a single command. `jupyter notebook password` will prompt you for your password and record the hashed password in your `jupyter_notebook_config.json`.
 {% highlight bash %}
 $ jupyter notebook password
 Enter password:  ****
