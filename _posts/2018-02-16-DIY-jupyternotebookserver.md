@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: DIY Jupyter Notebook Server
 tags: [tutorials, networking]
 categories:

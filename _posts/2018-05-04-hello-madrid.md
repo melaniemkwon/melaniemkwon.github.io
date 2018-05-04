@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: Cathedrals and Tapas
 tags: [travel]
 categories:
