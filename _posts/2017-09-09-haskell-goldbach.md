@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Goldbach's Other Conjecture
-tags: [code]
+tags: [code, haskell]
 categories:
 - blog
 ---
